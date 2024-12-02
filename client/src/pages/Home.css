@@ -1,0 +1,22 @@
+.Home {
+    text-align: center;
+    padding: 20px;
+    margin-left: 25%;
+    background-color: #f47b8e;
+    padding: 50px;
+    border-radius: 20px;
+    width: 55%;
+  }
+  
+  .Home img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+
+  #baker {
+    width: auto;
+    height: auto;
+    margin-left: 25%;
+
+  }

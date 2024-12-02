@@ -1,0 +1,74 @@
+.Card {
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(153, 153, 153, 0.497);
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 550px;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgb(108,200,199);
+}
+
+p,h2 {
+    margin: 0.5em 0;
+}
+
+.author {
+    color:white;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.description {
+    color:white;  
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.pButton {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: rgb(255,218,148);
+    color:black;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    margin-top: 15px;
+}
+.pButton:hover {
+    border-color: #f47b8e;
+  }
+
+.moreButton {
+    width: 30px;
+    margin-left: 350px;
+
+}
+
+.moreButton:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.images {
+    width: 25%;
+    height: 25%;
+}

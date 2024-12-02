@@ -1,0 +1,26 @@
+.DetailView {
+    font-family:Avenir, "Century Gothic", sans-serif;
+    padding: 20px;
+    background-color: #f47b8e;
+    border-radius: 20px;
+    padding: 50px;
+    color: #ffffff;
+    width: 45%;
+    text-align: center;
+    margin-left: 25%;
+  }
+  
+  .DetailView button {
+    background-color: #FFDA94;
+    color: black;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  .DetailView button:hover {
+    background-color: #fccd77;
+  }
